@@ -9,14 +9,14 @@ package neuronnetwork.NeuronNetwork;
  */
 public interface ActivationFunction {
 	/**
-	 * 
+	 * Method returning function value in the point
 	 * @param u Value of an inner function
 	 * @return
 	 */
 	public double get(double u);
 	
 	/**
-	 * 
+	 * Method returning derivative of the function
 	 * @param u Value of an inner function
 	 * @return
 	 */
