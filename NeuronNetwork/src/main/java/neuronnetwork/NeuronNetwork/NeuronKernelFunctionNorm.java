@@ -6,7 +6,6 @@ package neuronnetwork.NeuronNetwork;
  * ActivationFunction for RBF
  */
 public class NeuronKernelFunctionNorm implements NeuronKernelFunction {
-
 	public Double get(double[] x, double C, double[] w) {
 		double norm = 0.;
 		for (int i = 0; i < x.length; i++) {
@@ -16,4 +15,4 @@ public class NeuronKernelFunctionNorm implements NeuronKernelFunction {
 		return norm;
 	}
 
-}
+}	
